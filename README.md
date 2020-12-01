@@ -57,7 +57,7 @@ document.body.appendChild(element)
 We can continue to update `element`, since we have a reference to it:
 
 ``` javascript
-let ul = document.createElement('ul')
+let ul = document.createElement('ul') 
 
 for (let i = 0; i < 3; i++) {
   let li = document.createElement('li')
@@ -118,7 +118,6 @@ While you're not familiar with events (yet!), it should be clear that `doSomethi
 
 
 ## Change Properties on DOM Nodes
-
 We can change properties on DOM nodes to change their appearance.
 
 ``` javascript
